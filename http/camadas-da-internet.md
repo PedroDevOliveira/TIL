@@ -1,0 +1,13 @@
+## Camadas da Internet
+
+A internet é uma rede complexa que opera em diferentes camadas, cada uma com suas próprias funções e responsabilidades. O modelo de referência mais comumente utilizado para descrever as camadas da internet é o modelo TCP/IP, que é composto por quatro camadas principais:
+
+1. **Camada de Aplicação**: A camada de aplicação é a camada mais alta do modelo TCP/IP. Ela fornece interfaces e protocolos para que os aplicativos de software possam se comunicar com a rede. Alguns protocolos comuns nesta camada incluem HTTP, FTP, SMTP, DNS e Telnet. Os aplicativos nesta camada interagem diretamente com os usuários e oferecem serviços de rede, como acesso à web, transferência de arquivos e envio de e-mails.
+
+2. **Camada de Transporte**: A camada de transporte é responsável por garantir a transferência confiável de dados entre os dispositivos na rede. Ela divide os dados recebidos da camada de aplicação em segmentos menores e os envia aos dispositivos de destino. O protocolo TCP (Transmission Control Protocol) é amplamente utilizado nesta camada. Ele oferece controle de fluxo, controle de congestionamento e confiabilidade na entrega dos dados.
+
+3. **Camada de Rede**: A camada de rede lida com o endereçamento e roteamento dos pacotes de dados através da rede. Ela define como os pacotes são enviados de um dispositivo para outro, independentemente do meio físico subjacente. O protocolo IP (Internet Protocol) é o protocolo mais conhecido nesta camada. Ele atribui endereços IP exclusivos a cada dispositivo na rede e determina o caminho mais eficiente para encaminhar os pacotes.
+
+4. **Camada de Enlace de Dados**: A camada de enlace de dados é responsável pela transferência de dados entre dispositivos adjacentes na rede. Ela fornece mecanismos para a detecção e correção de erros que possam ocorrer durante a transmissão. Além disso, ela estabelece e mantém uma conexão física confiável entre os dispositivos. Protocolos comuns nesta camada incluem Ethernet, Wi-Fi, PPP (Point-to-Point Protocol) e HDLC (High-Level Data Link Control).
+
+Essas quatro camadas trabalham em conjunto para permitir a comunicação eficiente e confiável na internet. Cada camada desempenha um papel específico no processo de transferência de dados, desde a interação com os aplicativos até a transmissão física através dos dispositivos de rede. O modelo TCP/IP é amplamente adotado e serve como base para o funcionamento da internet.
