@@ -24,3 +24,4 @@ _2 TILs e contando..._
 ### Terraform
 
 - [O que é o Terraform](terraform/o-que-e-o-terraform.md)
+- [Sintaxe do Terraform](terraform/sintaxe-do-terraform.md)
