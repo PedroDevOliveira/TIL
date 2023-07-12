@@ -7,7 +7,7 @@ A sintaxe do Terraform é baseada em uma linguagem declarativa e possui elemento
 Os blocos são estruturas fundamentais no Terraform e são delimitados por chaves `{}`. Existem diferentes tipos de blocos usados para definir recursos, variáveis, provedores e muito mais.
 
 Exemplo de bloco de recurso para criar uma instância EC2 na AWS:
-```
+```yml
 resource "aws_instance" "example" {
   ami           = "ami-0c94855ba95c71c99"
   instance_type = "t2.micro"
@@ -35,7 +35,7 @@ resource "aws_instance" "example" {
 As variáveis no Terraform permitem parametrizar a configuração e torná-la mais flexível. Elas são definidas em blocos separados chamados de `variable` e podem ser usadas em diferentes partes da configuração.
 
 Exemplo de definição de variável:
-```
+```yml
 variable "region" {
   description = "The AWS region"
   default     = "us-west-2"
@@ -43,7 +43,7 @@ variable "region" {
 ```
 
 Exemplo de uso de variável:
-```
+```yml
 resource "aws_instance" "example" {
   ami           = "ami-0c94855ba95c71c99"
   instance_type = "t2.micro"
@@ -56,7 +56,7 @@ resource "aws_instance" "example" {
 Os provedores são responsáveis por interagir com os serviços de infraestrutura, como AWS, Azure, GCP, etc. Eles são definidos em blocos `provider` e especificam as credenciais e configurações necessárias para acessar cada serviço.
 
 Exemplo de configuração de provedor para a AWS:
-```
+```yml
 provider "aws" {
   region     = "us-west-2"
   access_key = "YOUR_ACCESS_KEY"
