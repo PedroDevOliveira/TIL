@@ -4,7 +4,7 @@ O Ansible é uma ferramenta de automação que simplifica a configuração e o g
 
 ## Relação com o Terraform
 
-O Terraform é usado para criar e gerenciar a infraestrutura em provedores de nuvem. Ele permite definir a infraestrutura como código. 
+O [Terraform](/terraform/o-que-e-o-terraform.md) é usado para criar e gerenciar a infraestrutura em provedores de nuvem. Ele permite definir a infraestrutura como código. 
 
 O Ansible e o Terraform podem ser usados juntos para automatizar todo o processo, desde o provisionamento da infraestrutura até a configuração dos sistemas. 
 
