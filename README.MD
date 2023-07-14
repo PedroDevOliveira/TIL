@@ -4,16 +4,22 @@
 
 Uma coleção de pequenos resumos sobre coisas que aprendo dia a dia em várias linguagens e tecnologias. Essas são informações que não necessariamente merecem uma postagem completa em um blog. Essa iniciativa é inspirada pelo TLI de [jbranchaud](https://github.com/jbranchaud).
 
-_2 TILs e contando..._
+_4 TILs e contando..._
 
 ---
 
 ### Tópicos
 
+* [Ansible](#ansible)
 * [HTTP](#http)
 * [Terraform](#terraform)
 
 ---
+
+
+### Ansible
+
+- [O que é o Ansible?](ansible/o-que-e-o-ansible.md)
 
 ### HTTP
 

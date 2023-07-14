@@ -1,4 +1,4 @@
-## Ansible: Automação de TI
+## O que é o Ansible
 
 O Ansible é uma ferramenta de automação que simplifica a configuração e o gerenciamento de sistemas. Ele usa arquivos de configuração chamados de "playbooks" para descrever as tarefas que deseja realizar, como instalar software e configurar serviços.
 
