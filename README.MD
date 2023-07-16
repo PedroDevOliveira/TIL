@@ -4,13 +4,14 @@
 
 Uma coleção de pequenos resumos sobre coisas que aprendo dia a dia em várias linguagens e tecnologias. Essas são informações que não necessariamente merecem uma postagem completa em um blog. Essa iniciativa é inspirada pelo TLI de [jbranchaud](https://github.com/jbranchaud).
 
-_4 TILs e contando..._
+_5 TILs e contando..._
 
 ---
 
 ### Tópicos
 
 * [Ansible](#ansible)
+* [Amazon Web Services](#amazon-web-services)
 * [HTTP](#http)
 * [Terraform](#terraform)
 
@@ -20,6 +21,10 @@ _4 TILs e contando..._
 ### Ansible
 
 - [O que é o Ansible?](ansible/o-que-e-o-ansible.md)
+
+### Amazon Web Services
+
+- [Amazon Web Services (AWS)](aws/o-que-e-aws.md)
 
 ### HTTP
 
