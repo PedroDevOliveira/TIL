@@ -4,7 +4,7 @@
 
 Uma coleção de pequenos resumos sobre coisas que aprendo dia a dia em várias linguagens e tecnologias. Essas são informações que não necessariamente merecem uma postagem completa em um blog. Essa iniciativa é inspirada pelo TLI de [jbranchaud](https://github.com/jbranchaud).
 
-_5 TILs e contando..._
+_6 TILs e contando..._
 
 ---
 
