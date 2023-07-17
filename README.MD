@@ -25,6 +25,7 @@ _5 TILs e contando..._
 ### Amazon Web Services
 
 - [Amazon Web Services (AWS)](aws/o-que-e-aws.md)
+- [Lightsail](aws/aws-lightsail.md)
 
 ### HTTP
 
