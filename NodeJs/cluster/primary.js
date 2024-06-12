@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const cpuCount = os.cpus().length;
+const cpuCount = os.availableParallelism();
 
 console.log('The total number of CPUs is : ' + cpuCount);
 console.log(`Primary pid=${process.pid}`);
